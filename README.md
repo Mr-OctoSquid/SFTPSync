@@ -1,13 +1,15 @@
-# SFTPSync
+# SFTPSync.
 Very basic batch script to automatically upload files from a local server to a remote SFTP site.
 
+# Disclaimer.
+This script is multiple years old. It does not do any form of log clean up either. Use at own risk.
 
-#Requirements
+# Requirements.
 1. Winscp on processing server.
 2. Local and remote directory access.
 3. Service account to run script under if being automated.
 
-# Setup
+# Setup.
 1. Create a folder for script to reside in. I suggest: C:\SFTP Sync tool
 2. Edit Sync Tool.bat
 2a. Double check the directory where winscp is installed: "C:\Program Files (x86)\WinSCP"
