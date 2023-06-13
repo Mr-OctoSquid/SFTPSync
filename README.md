@@ -27,34 +27,4 @@ Very basic batch script to automatically upload files from a local server to a r
 2b. Run with highest pribileges.
 2c. Change user and set user as the service account.
 
-3. Run the script to test.
-
-# Example log output.
-
-----Script Start-----
-Tue 01/08/2019 10:23:17.27
----------------------
-Searching for host...
-Connecting to host...
-Authenticating...
-Using username "REDACTED".
-Authenticating with pre-entered password.
-Authenticated.
-Starting the session...
-Session started.
-Active session: [1] REDACTED@REDACTED
-Comparing...
-Local 'D:\wins\1\HL7\CAstate' => Remote '/Uploads'
-Synchronizing...
-Local 'D:\wins\1\HL7\CAstate' => Remote '/Uploads'
-D:REDACTED.DAT | 5 KB | 0.0 KB/s | binary | 100%
-D:REDACTED.DAT | 26 KB | 285.4 KB/s | binary | 100%
-D:REDACTED.DAT | 12 KB | 318.1 KB/s | binary | 100%
-D:REDACTED.DAT | 13 KB | 317.8 KB/s | binary | 100%
-D:REDACTED.DAT | 6 KB | 316.2 KB/s | binary | 100%
-D:REDACTED.txt | 0 B | 313.3 KB/s | binary | 0%
-Session 'REDACTED@REDACTED' closed.
-No session.
-----Script End-----
-Tue 01/08/2019 10:23:23.11
--------------------
+3. Manually Run the scheduled job to test and check the log file.
