@@ -1,6 +1,6 @@
 open sftp://usernamegoeshere:passwordgoeshere@sftp.client.com -hostkey=""
 
-synchronize remote "D:\wins\1\HL7\CAstate" "/Uploads"
+synchronize remote "D:\localpath" "/remotepath"
 
 close
 exit
